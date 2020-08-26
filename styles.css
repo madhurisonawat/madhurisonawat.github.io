@@ -20,220 +20,55 @@
     margin-left:42%;
     margin-top:2%
 }
-h1,#head{
-    text-align:center;
+h1,hr{
     color:#2E4053 
 }
-
-h5{
-    text-align:center
+#about{
+    width:50%;
+    margin-left:25%
 }
 
-.info{
-   display:flex;
-    text-align:center;
-    flex-direction:row;
-    width:40%;
-    margin-left:30%;
-    
-}
-.info>div{
-    margin-left:2.5%;
-  
-}
-.info>div>img{
-    width:20px;
-    height:20px;
-    text-align:center;
-    
-
-   
-}
-.afterDetails>a>img{
-   width:50px;
-   height:50px;
-   margin-right:2%
-}
-.afterDetails{
-margin-top:25%;
-  
-  text-align:center
-   
-}
-.about{
-    text-align:center;
-    margin-left:30%;
-    margin-right:30%
-}
-
-h4{
-    color:grey;
-   
-}
-.tech>div>img{
-    width:100px;
-    height:100px;
-   
-
-
-}
-
-.tech>div{
-    float:left;
-    width:30%;
-    margin:1%;
-    color:grey;
-    text-align:center;
-
-    
-}
-
-
-hr{
-    clear:both;
- 
-}
-
-.box>h2{
-    color:#2E4053 ;
-    /* margin-left:10% */
-    text-align:center
-}
-
-.box{
-    width:30%;
-    border:1px solid grey;
-    margin:1.5%;
-    float:left;
-    height:430px
-
-}
-.box>img{
-    width:100%;
-
-
-}
-p{
-    font-size:16px;
-  padding:5px
-}
 .one{
-    width:150px;
-    height:150px;
+     width:200px;
+    height:200px; 
     border-radius:50%;
     border:20px solid #52BE80 ;
-    margin-left:20%;
-    margin-top:2%
-   
+  
   
    
 }
-.floating{
-    float:left;
-    width:23%;
-    margin:0.5%
- 
-
-}
-.icon{
-    width:30px;
-    height:30px
-}
-
-
 #coding{
     background-image: linear-gradient(to bottom, #D4EFE0 ,#52BE80   );
     margin-top:2%;
     text-align:center;
-    height:300px
+    height:400px
   
 }
-.time{
-    margin-top:35%
-}
-@media only screen and (max-width: 600px) {
-  .afterDetails{
-      margin-top:400px
-  }
-  .info{
-      width:100%;
-      margin-left:0%;
-      flex-direction: column;
-
-  }
-  .info>div{
-      width: 100%;
-    
-  }
-  .about{
-      width:80%;
-      padding-left: 10%;
-      padding-right: 10%;
-      margin-left:0%
-  }
-  .tech>div,.box,.floating{
-    width:100%;
-    margin-left: 0%;
-  }
-  #coding{
-      height:1200px;
-
-  }
-  .one{
-      margin-left:30%
-  }
-}
-
-@media only screen and (max-width:960px){
-    .afterDetails{
-        margin-top:350px;
-        
-    }
-    .info{
-        width:100%;
-        margin-left:0%
-    }
-.info>div{
-    width:30%
-}
-#coding{
-    height:600px;
-}
-.floating{
-width:48%;
-margin-left:0%
-}
-.one{
-    margin-left:30%
-}
-}
-
-
 .git{
     width:100%
 }
-.aftergit{
-    border:1px solid #CCD1D1 ;
-    display:flex;
-    flex-direction: row;
-    width:100%
+/* @media only screen and (max-width: 900px) {
+    #coding{
+        height:800px
+    }
+   
 }
-.aftergit>div>h2{
-    color: #273746 
+@media only screen and (max-width: 800px) {
+    #coding{
+        height:1200px
+    }
+   
+} */
+@media only screen and (min-width: 800px) and (max-width:1000px){
+    #coding{
+        height:700px
+    }
 }
-.aftergit>div>p{
-    color:#515A5A 
+
+ @media only screen and (max-width: 800px) {
+    #coding{
+        height:1200px;
+    }
 }
-.aftergit>div{
-    width:30%;
-    border-right:1px solid #CCD1D1; 
-    /* margin:1%; */
-    margin-top:0%;
-    margin-left:5%
-}
-.pLink{
-    width:20px;
-    height:20px;
-    /* margin-bottom:1%
-    */
- }
+
+   
