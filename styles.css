@@ -18,49 +18,80 @@
     border-radius:100px;
     border: 7px solid #C2F8D8;
     margin-left:42%;
-    margin-top:2%
+    /* margin-top:2%; */
+    animation:  bounceIn 2s ease-in-out 3s;
 }
+
 h1{
     color:#2E4053 
 }
 #about{
     width:50%;
-    margin-left:25%
+    margin-left:25%;
+
+   
+}  
+h5{
+  animation-duration: 3s;
+  animation-name: slidein;
+  
+}
+ @keyframes slidein {
+    from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.proficiency>img:hover{
+  animation-name: rotate; 
+  animation-duration: 0.7s;
 }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .one{
-     width:200px;
-    height:200px; 
+     /* width:200px;
+    height:200px;  */
+    height:120px;
+    width:120px;
     border-radius:50%;
     border:20px solid #52BE80 ;
+    border-left: 20px solid blue;
+     border-top: 20px solid #212f3d;
+     border-right: 20px solid #e93413;
+      border-bottom: 20px solid   #978505 
+
   
   
    
 }
-#see{
+.proficiency{
     box-shadow: 2px 2px 2px 2px #888888;
+    min-width:200px;
      /* border-bottom-right-radius: 200px 120px; */
-     border-radius: 35%;
-
-}
-
-/* .hov:hover{
-  width:200px
-    
- 
-} */
-.pro:hover{
-        background-image:url("https://images.all-free-download.com/images/graphiclarge/blue_background_picture_13_169450.jpg");
-       
-    
-}
+     border-radius: 15%;
+    margin:2%;
+    padding:2%;
+    background-color:#74dfa3 
+    }
 .live{
     width:40px;
     margin:20px
 }
 .shad{
-    box-shadow: 5px 10px 8px 10px #888888;
-     border-bottom-right-radius: 200px 120px;
+    box-shadow: 5px 5px 8px 5px #888888;
+     border-bottom-right-radius: 150px 80px;
 
  
 }
@@ -68,7 +99,7 @@ h1{
     background-image: linear-gradient(to bottom, #D4EFE0 ,#52BE80   );
     margin-top:2%;
     text-align:center;
-    height:400px
+    height:300px
   
 }
 .git{
@@ -76,12 +107,18 @@ h1{
    
 }
 .shad1{
-    box-shadow: 5px 5px rgba(0, 98, 90, 0.4),
+    /* box-shadow: 5px 5px rgba(0, 98, 90, 0.4),
               10px 10px rgba(0, 98, 90, 0.3),
               15px 15px rgba(0, 98, 90, 0.2),
               20px 20px rgba(0, 98, 90, 0.1),
               25px 25px rgba(0, 98, 90, 0.05);
-    border-radius:300px
+    border-radius:300px */
+       box-shadow: 10px 10px rgba(0, 98, 90, 0.4),
+              15px 15px rgba(0, 98, 90, 0.3),
+              20px 20px rgba(0, 98, 90, 0.2),
+              25px 25px rgba(0, 98, 90, 0.1),
+              30px 30px rgba(0, 98, 90, 0.05);
+    border-radius:60%
 
 }
 /* @media only screen and (max-width: 900px) {
@@ -98,14 +135,43 @@ h1{
 } */
 @media only screen and (min-width: 800px) and (max-width:1000px){
     #coding{
-        height:700px
+         height:700px
     }
 }
 
  @media only screen and (max-width: 800px) {
     #coding{
-        height:1200px;
+        /* height:1200px; */
+        height:820px;
+        width:80%
     }
+    .gitCard{
+        width:50%
+    }
+    .proficiency{
+        width:60%;
+        margin:2%;
+       margin-left:15%;
+    }
+    #photo{
+        margin-left:35%
+    }
+}
+#project {
+    min-height: 100vh;
+    
+      /* background-color:   #212f3d  */
+/* ;*/
 }
 
    
+#projCol{
+    background-color: #97eebe;
+}
+ /* html {  background: url('https://images.unsplash.com/photo-1448067686092-1f4f2070baae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80') no-repeat center fixed; 
+  background-size: cover;
+} */
+
+/* .tech{
+    background-color: #97eebe;
+} */
