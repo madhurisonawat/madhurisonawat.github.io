@@ -1,16 +1,3 @@
-#top{
-    background-image: linear-gradient(to right, #D4EFE0 ,#52BE80   );
-    height:100px;
-    transform: skewY(20deg);
-    position:relative
-}
- 
-#sec{
-    background-image: linear-gradient(to right, #D4EFE0 ,#52BE80   );
-    height:100px;
-    position:relative
-   
-}
 
 #photo{
     width:200px;
@@ -47,6 +34,12 @@ h5{
     width: 100%;
   }
 }
+.proficiency:hover{
+  border-radius: 25px;
+background: #31d8a0;
+box-shadow: inset 26px 26px 55px #197053, 
+            inset -26px -26px 55px #49ffed;
+}
 .proficiency>img:hover{
   animation-name: rotate; 
   animation-duration: 0.7s;
@@ -76,6 +69,7 @@ h5{
   
    
 }
+
 .proficiency{
     box-shadow: 2px 2px 2px 2px #888888;
     min-width:200px;
@@ -83,8 +77,13 @@ h5{
      border-radius: 15%;
     margin:2%;
     padding:2%;
-    background-color:#74dfa3 
-    }
+    /* //background-color:#74dfa3; */
+border-radius: 50px;
+background: linear-gradient(145deg, #34e7ab, #2cc290);
+box-shadow:  20px 20px 37px #145640, 
+             -20px -20px 37px #4effff;
+
+}
 .live{
     width:40px;
     margin:20px
@@ -121,21 +120,13 @@ h5{
     border-radius:60%
 
 }
-/* @media only screen and (max-width: 900px) {
-    #coding{
-        height:800px
-    }
-   
-}
-@media only screen and (max-width: 800px) {
-    #coding{
-        height:1200px
-    }
-   
-} */
+
+
 @media only screen and (min-width: 800px) and (max-width:1000px){
     #coding{
-         height:700px
+         height:560px;
+       
+         /* 700 */
     }
 }
 
@@ -143,7 +134,8 @@ h5{
     #coding{
         /* height:1200px; */
         height:820px;
-        width:80%
+        width:80%;
+    
     }
     .gitCard{
         width:50%
@@ -168,10 +160,3 @@ h5{
 #projCol{
     background-color: #97eebe;
 }
- /* html {  background: url('https://images.unsplash.com/photo-1448067686092-1f4f2070baae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80') no-repeat center fixed; 
-  background-size: cover;
-} */
-
-/* .tech{
-    background-color: #97eebe;
-} */
