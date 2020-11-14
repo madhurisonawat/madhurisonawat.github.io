@@ -160,3 +160,10 @@ box-shadow:  20px 20px 37px #145640,
 #projCol{
     background-color: #97eebe;
 }
+
+#btn{
+  color:white;
+  background:#31d8a0;
+  border:none;
+  outline:none
+}
