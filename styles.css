@@ -162,6 +162,7 @@ background: linear-gradient(145deg, #34e7ab, #2cc290);
   border:none;
   outline:none
 }
-body{
-  width:100%
+.fit{
+  width:98%;
+  margin-left:1%
 }
