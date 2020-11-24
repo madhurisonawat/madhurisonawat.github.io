@@ -5,7 +5,6 @@
     border-radius:100px;
     border: 7px solid #C2F8D8;
     margin-left:42%;
-    /* margin-top:2%; */
     animation:  bounceIn 2s ease-in-out 3s;
 }
 
@@ -54,8 +53,7 @@ box-shadow: inset 26px 26px 55px #197053,
   }
 }
 .one{
-     /* width:200px;
-    height:200px;  */
+   
     height:120px;
     width:120px;
     border-radius:50%;
@@ -73,15 +71,13 @@ box-shadow: inset 26px 26px 55px #197053,
 .proficiency{
     box-shadow: 2px 2px 2px 2px #888888;
     min-width:200px;
-     /* border-bottom-right-radius: 200px 120px; */
      border-radius: 15%;
     margin:2%;
     padding:2%;
-    /* //background-color:#74dfa3; */
+
 border-radius: 50px;
-background: linear-gradient(145deg, #34e7ab, #2cc290);
-/* box-shadow:  20px 20px 37px #145640, 
-             -20px -20px 37px #4effff; */
+background: linear-gradient(145deg, #34e7ab, #77DD77);
+/* ;2cc290 */
 
 }
 .live{
@@ -121,13 +117,13 @@ background: linear-gradient(145deg, #34e7ab, #2cc290);
     #coding{
          height:560px;
        
-         /* 700 */
+         
     }
 }
 
  @media only screen and (max-width: 800px) {
     #coding{
-        /* height:1200px; */
+        
         height:820px;
         width:80%;
     
@@ -147,8 +143,6 @@ background: linear-gradient(145deg, #34e7ab, #2cc290);
 #project {
     min-height: 100vh;
     
-      /* background-color:   #212f3d  */
-/* ;*/
 }
 
    
