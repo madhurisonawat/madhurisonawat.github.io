@@ -3,7 +3,7 @@
     width:200px;
     height:200px;
     border-radius:100px;
-    border: 7px solid #C2F8D8;
+    border: 7px solid #41CAFD  ;
     margin-left:42%;
     animation:  bounceIn 2s ease-in-out 3s;
 }
@@ -35,9 +35,9 @@ h5{
 }
 .proficiency:hover{
   border-radius: 25px;
-background: #31d8a0;
-box-shadow: inset 26px 26px 55px #197053, 
-            inset -26px -26px 55px #49ffed;
+background: #41CAFD ;
+box-shadow: inset 26px 26px 55px #ECC1A8, 
+            inset -26px -26px 55px #ECC1A8;
 }
 .proficiency>img:hover{
   animation-name: rotate; 
@@ -76,7 +76,8 @@ box-shadow: inset 26px 26px 55px #197053,
     padding:2%;
 
 border-radius: 50px;
-background: linear-gradient(145deg, #34e7ab, #77DD77);
+/* background: linear-gradient(145deg, #34e7ab, #77DD77); */
+background:linear-gradient(145deg,#F1948A,#41CAFD )
 /* ;2cc290 */
 
 }
@@ -91,7 +92,8 @@ background: linear-gradient(145deg, #34e7ab, #77DD77);
  
 }
 #coding{
-    background-image: linear-gradient(to bottom, #D4EFE0 ,#52BE80   );
+    /* background-image: linear-gradient(to bottom, #D4EFE0 ,#52BE80   ); */
+    background-image: linear-gradient(to bottom, #41CAFD  ,#66B0CC);
     margin-top:2%;
     text-align:center;
     height:300px
@@ -102,12 +104,18 @@ background: linear-gradient(145deg, #34e7ab, #77DD77);
    
 }
 .shad1{
- 
+/*  
        box-shadow: 10px 10px rgba(0, 98, 90, 0.4),
               15px 15px rgba(0, 98, 90, 0.3),
               20px 20px rgba(0, 98, 90, 0.2),
               25px 25px rgba(0, 98, 90, 0.1),
-              30px 30px rgba(0, 98, 90, 0.05);
+              30px 30px rgba(0, 98, 90, 0.05); */
+               
+       box-shadow: 10px 10px rgb(67, 118, 137 ),
+              15px 15px rgb(42, 84, 99),
+              20px 20px rgb(117, 192, 219),
+              25px 25px rgb(114, 173, 194),
+              30px 30px rgb(101, 167, 190);
     border-radius:60%
 
 }
