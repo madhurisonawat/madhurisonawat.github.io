@@ -4,7 +4,7 @@
     height:200px;
     border-radius:100px;
     border: 7px solid #41CAFD  ;
-    margin-left:42%;
+    margin-left:45%;
     animation:  bounceIn 2s ease-in-out 3s;
 }
 
@@ -166,5 +166,5 @@ background:linear-gradient(145deg,#F1948A,#41CAFD )
 }
 .fit{
   width:98%;
-  margin-left:1%
+  margin-left:8%
 }
