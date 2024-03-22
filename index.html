@@ -10,59 +10,40 @@
 
 <body>
     <div>
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#project">Projects</a>
+            <a href="#tech-stack">Technical Skills</a>
+            <a href="#git-stats">Git Stats</a>
+            <a href="#contact">Contact</a>
+            <a href="https://drive.google.com/uc?export=download&id=15V0tZ6eWrlmnyHmkXigAwskX3SihimqG" download="resume.pdf"target="_blank">
+                <button id="btn">Resume</button>
+            </a>
+
+          </div>
         <div>
             <img src="./images/waves.svg" />
         </div> 
+          
         <div>
-            <img id="photo" src="./images/madhuri.jpg" alt="photo" />
+            <img id="home" src="./images/madhuri.jpg" alt="photo" />
             <h1 class="text-center">Madhuri Sonawat</h1>
             <h5 class="text-center text-secondary">Full Stack Developer</h5>
-            <div class="container text-center mt-5">
-                <div class="row ">
-                    <div class="col-sm-12 col-md-3 col-lg-2 offset-lg-3">
-                        <img width="15px" src="https://cdn2.iconfinder.com/data/icons/pittogrammi/142/94-512.png" alt="location" />
-                        Bangalore, India
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-2">
-                        <img width="15px" src="https://cdn3.iconfinder.com/data/icons/font-awesome-solid/512/phone-256.png" alt="phone" />
-                        +91 9572745458
-
-                    </div>
-                    <div class="col-sm-12 col-md-5 col-lg-4">
-                        <img width="15px" src="https://cdn4.iconfinder.com/data/icons/aiga-symbol-signs/439/aiga_mail-256.png" alt="email" />
-                        madhurisonawat@gmail.com
-
-                    </div>
-                </div>
-               
-            </div>
-
-
         </div>
-
-        <div class="text-center mt-4 mb-4">
-            <a class="ml-2" href="https://www.linkedin.com/in/madhuri-sonawat-25026b146/" target="blank"><img
-                    width="30px" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-256.png" alt="linkedin" /></a>
-            <a class="ml-2" href="https://github.com/madhurisonawat" target="blank"><img width="30px"
-                    src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-256.png" alt="github" /></a>
-            <a class="ml-2" href="https://twitter.com/madhurisonawat" target="blank"><img width="30px"
-                    src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter3_colored_svg-512.png" alt="twitter" /></a>
-            <a class="ml-2" href="https://www.hackerrank.com/madhurisonawat?hr_r=1" target="blank"><img width="30px"
-                    src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/160_Hackerrank-512.png"
-                    alt="hackerrank" /></a>
-
-        </div>
+<hr/>
         <div class="container text-center ">
             <div id="about">
+                <h1 class="text-center">About me</h1>
                 <h5 class="text-secondary"> Dynamic Frontend Developer with practical experience of 3.5 years in designing and
                     implementing visually appealing user interfaces using React.js and related
                     technologies. Skilled in developing high-quality, reusable, and scalable code. Proficient
                     in JavaScript, HTML, CSS, and RESTful API integration. </h5>
             </div>
-            <div><a href="https://drive.google.com/file/d/1W_0Fz5Dlk7m9O_t5Cqs2wSz74dPSASjF/view?usp=drive_link"target="blank"><button id="btn">Resume</button></div></a>
         </div>
         <hr />
-         <h1 class="text-center">Tech Stack</h1>
+         <h1 id="tech-stack"class="text-center">Tech Stack</h1>
         <div class="fit row text-center container-fluid py-4 ml-10">
 
 
@@ -124,7 +105,7 @@
 
         </div> 
         <hr/>
-        <h1 class="text-center">Work Experience</h1>
+        <h1 id="experience" class="text-center">Work Experience</h1>
         <div class="work">
             <h3>React Developer(Remote)</h3>
             <p>Airmeet Network Private Limited - Dec 2020 -May 2024</p>
@@ -138,8 +119,8 @@
         </ul>
         </div>
         <hr />
-        <h1 class="text-center">Projects</h1>
-        <div id="project" class="container-fluid py-1">
+        <h1 id="project"class="text-center">Projects</h1>
+        <div  class="container-fluid py-1">
 
             <div class="d-flex justify-content-center align-items-center flex-column mx-5">
 
@@ -332,7 +313,7 @@
         </div>
         <hr />
         <div id="coding" class="container-fluid p-5 mt-5">
-            <div class=" text-center">
+            <div class=" text-center" id="git-stats">
                 <div class="row">
                     <div class="shad1  col-sm-12 col-md-6  col-lg-3">
                         <div class="offset-3 rounded-circle p-3 one">
@@ -366,7 +347,7 @@
 
         <hr />
           <img class="git" src="images/git.jpeg" />
-        <div class="fit row text-center">
+        <div id="last-item"class="fit row text-center">
             <div class="shad col-sm-12 col-md-4 ">
                 <p>Contributions in the last year</p>
                 <h2>476 Total</h2>
@@ -387,7 +368,34 @@
             </div>
 
         </div> 
+        <hr />
+        <h1 id="contact"class="text-center">Contact Info</h1>
+        <div class="container text-center mt-5">
+            <div class="row ">
+                <div class="col-sm-12 col-md-3 col-lg-2 offset-lg-3">
+                    <img width="15px" src="https://cdn2.iconfinder.com/data/icons/pittogrammi/142/94-512.png" alt="location" />
+                    Bangalore, India
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-2">
+                    <img width="15px" src="https://cdn3.iconfinder.com/data/icons/font-awesome-solid/512/phone-256.png" alt="phone" />
+                    +91 9572745458
 
+                </div>
+                <div class="col-sm-12 col-md-5 col-lg-4">
+                    <img width="15px" src="https://cdn4.iconfinder.com/data/icons/aiga-symbol-signs/439/aiga_mail-256.png" alt="email" />
+                    madhurisonawat@gmail.com
+
+                </div>
+            </div>
+           
+        </div>
+        <div class="text-center mt-4 mb-4">
+            <a class="ml-2" href="https://www.linkedin.com/in/madhuri-sonawat-25026b146/" target="blank"><img
+                    width="30px" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-256.png" alt="linkedin" /></a>
+            <a class="ml-2" href="https://github.com/madhurisonawat" target="blank"><img width="30px"
+                    src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-256.png" alt="github" /></a>
+
+        </div>
 
     </div>
 
