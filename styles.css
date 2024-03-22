@@ -1,10 +1,10 @@
 
 #photo{
-    width:200px;
-    height:200px;
-    border-radius:100px;
+    width:260px;
+    height:260px;
+    border-radius:50%;
     border: 7px solid #41CAFD  ;
-    margin-left:45%;
+    margin-left:43%;
     animation:  bounceIn 2s ease-in-out 3s;
 }
 
@@ -67,7 +67,14 @@ box-shadow: inset 26px 26px 55px #ECC1A8,
   
    
 }
-
+.work{
+  box-shadow: 2px 2px 2px 2px #888888;
+  margin:2%;
+  padding:2%;
+  p{
+    color:darkblue
+  }
+}
 .proficiency{
     box-shadow: 2px 2px 2px 2px #888888;
     min-width:200px;
